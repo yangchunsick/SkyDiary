@@ -1,0 +1,39 @@
+section{
+    width: 100vw; height: 89vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.user_profile_box{
+    height: 60px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.user_profile{
+    display: inline-block;
+    width: 45px; height: 45px;
+    margin: 7.5px;
+    border-radius: 50px;
+    line-height: 70px;
+    background-color: black;
+    font-size: 0;
+}
+
+.user_id{
+    font-size: 14px;
+}
+
+.img_box{
+    display: block;
+    width: 480px; height: 480px;
+    background-color: black;
+}
+
+.content_box{
+    width: 480px; height: 10px;
+}
+
+.reply_box{
+    width: 480px; height: 10px;
+    background-color: gray;
+}
