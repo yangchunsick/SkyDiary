@@ -1,4 +1,5 @@
 section{
+    max-width: 480px;
     width: 480px; height: 100%;
     background-color: rgb(245, 245, 245);
 }
