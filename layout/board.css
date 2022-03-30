@@ -6,6 +6,11 @@
     font-size: 14px;
 }
 
+html{
+    display: block;
+    margin: 0 auto;
+}
+
 body{
     background-color: rgb(245, 245, 245);
 }
@@ -78,12 +83,12 @@ section{
 
 .like_count{
     display: block;
-    margin: 0 0 5px 8px;
+    padding: 0 0 5px 8px;
 }
 
 .content{
     width: 100%;
-    margin: 0 0 5px 8px;
+    padding: 0 0 5px 8px;
 }
 
 .content span{
@@ -101,7 +106,7 @@ section{
 
 .reply_box{
     width: 100%;
-    margin: 0 0 10px 8px;
+    padding: 0 0 10px 8px;
 }
 
 .reply_box a{
