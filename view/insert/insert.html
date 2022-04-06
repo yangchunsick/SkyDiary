@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- font-awesome cdn -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <!-- CSS -->
+        <link rel="stylesheet" href="insert.css">
+    </head>
+    <body>
+
+        <div class="wrap">
+
+            <header>
+                <div class="top_menu">
+                    <div class="back_icon">
+                        <a href="#">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="info_text">
+                        <span>게시물 작성</span>
+                    </div>
+                </div>
+            </header>
+
+            <form action="" method="">
+                <section class="upload_box1">
+                    
+                    <label class="upload_btn" for="img_upload">
+                        <input type="file" name="file" id="img_upload" style="display: none;">
+                        <span class="upload_icon">
+                            <i class="fa-solid fa-image"></i>
+                            <p class="upload_text">사진/ 동영상 추가하기</p>
+                        </span>
+                    </label>
+                    
+                    <div class="img-box">
+                        <span class="preview">
+                            <img src="/images/dice1.jpg">
+                            <video src="" style="display: none;"></video>
+                        </span>
+                    </div>
+
+                    <div class="content_box">
+                        <textarea class="content" name="content" id="content" placeholder="문구 작성하기"></textarea>
+                    </div>
+                </section>
+            </form>
+
+        </div>
+
+    </body>
+</html>
