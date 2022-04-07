@@ -31,7 +31,9 @@
                 </div>
             </header>
 
-            <form action="" method="">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="UserId">
+                <input type="hidden" name="name" value="UserName">
                 <section class="upload_box1">
                     
                     <label class="upload_btn" for="img_upload">
@@ -45,7 +47,7 @@
                     <div id="img_box" class="img_box">
                         <label for="img_upload">
                             <span class="preview">
-                                <img id="previewImg" style="display: none;">
+                                <img id="previewImg">
                                 <video id="previewVideo" controls controlsList="nodownload"></video>
                             </span>
                         </label>

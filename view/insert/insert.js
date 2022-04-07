@@ -1,28 +1,26 @@
 $(document).ready(function(){
-    
+    fnSubmitCheck();
 });
 
-/*
-function readURL(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = function (e) {
-            document
-                .getElementById('previewImg')
-                .src = e.target.result;
-        };
+// submit 막기
+function fnSubmitCheck(){
+    $('.insert_btn').click(function(event){
+        
+        // 파일, 내용 빈값일 때
+        if($('#img_upload').val() == '' && $('#content').val() == ''){
+            alert('내용을 입력 해주세요.');
+            event.preventDefault();
+            return;
 
-        reader.readAsDataURL(input.files[0]);
-        $('.img_box').css('display', 'block');
-        $('.upload_icon').css('display', 'none');
-
-    } else {
-        document
-            .getElementById('previewImg')
-            .src = "";
-    }
+        // 내용 없을 때
+        }else if($('#img_upload').val() != '' && $('#content').val() == ''){
+            alert('내용 입력은 필수 입니다.');
+            event.preventDefault();
+            return;
+        }
+    });
 }
-*/
+
 // 이미지 및 비디오 확장자 및 크기  체크
 function fnFileCheck(){
 		
