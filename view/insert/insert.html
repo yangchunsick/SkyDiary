@@ -5,15 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <!-- font-awesome cdn -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"/>
+        <!-- JavaScript CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- font-awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <!-- CSS -->
         <link rel="stylesheet" href="insert.css">
+        <!-- JS -->
+        <script src="insert.js"></script>
     </head>
     <body>
 
@@ -36,17 +35,17 @@
                 <section class="upload_box1">
                     
                     <label class="upload_btn" for="img_upload">
-                        <input type="file" name="file" id="img_upload" style="display: none;">
-                        <span class="upload_icon">
+                        <input type="file" name="file" id="img_upload" onchange="readURL(this)" style="display: none;">
+                        <span id="upload_icon" class="upload_icon">
                             <i class="fa-solid fa-image"></i>
                             <p class="upload_text">사진/ 동영상 추가하기</p>
                         </span>
                     </label>
                     
-                    <div class="img-box">
+                    <div id="img_box" class="img_box">
                         <span class="preview">
-                            <img src="/images/dice1.jpg">
-                            <video src="" style="display: none;"></video>
+                            <img id="previewImg" src="">
+                            <video id="previewVideo" src="" style="display: none;"></video>
                         </span>
                     </div>
 
@@ -54,6 +53,11 @@
                         <textarea class="content" name="content" id="content" placeholder="문구 작성하기"></textarea>
                     </div>
                 </section>
+
+                <div class="btn_box">
+                    <input class="insert_btn" type="submit" value="게시">
+                </div>
+
             </form>
 
         </div>
