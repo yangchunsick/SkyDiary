@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.skydiary.skydiary.repository.MemberRepository">
+	
+	<!-- 아이디 중복 확인 -->
+	<select id="selectMemberById" parameterType="String" resultType="com.skydiary.skydiary.domain.Member">
+		SELECT ID
+		  FROM MEMBER
+		 WHERE ID = #{id}
+	</select>
+	
+	<!-- 이메일 중복 확인 -->
+	<select id="selecMemberByEmail" parameterType="String" resultType="com.skydiary.skydiary.domain.Member">
+		SELECT ID, PW, EMAIL
+		  FROM MEMBER
+		 WHERE EMAIL = #{email}
+	</select>
+	
+	<!-- 회원가입 -->
+	<insert id="joinMember" parameterType="com.skydiary.skydiary.repository.MemberRepository">
+		INSERT INTO MEMBER
+		VALUES (MEMBER_SEQ.NEXTVAL, #{id}, #{pw}, #{name}, #{email}, SYSDATE)
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" parameterType="com.skydiary.skydiary.repository.MemberRepository" resultType="com.skydiary.skydiary.domain.Member">
+		SELECT M_NO, ID, PW, NAME, EMAIL, M_CREATED
+		  FROM MEMBER
+		 WHERE ID = #{id}
+		   AND PW = #{pw}
+	</select>
+	
+
+</mapper>

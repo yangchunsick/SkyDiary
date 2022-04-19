@@ -1,0 +1,35 @@
+
+3월 15, 2022 17:08:04.543 NEW SESSION
+3월 15, 2022 17:08:04.543 [13000:4308:0315/170804.542:ERROR:device_event_log_impl.cc(214)] [17:08:04.542] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 15, 2022 17:08:04.544 [13000:4308:0315/170804.542:ERROR:device_event_log_impl.cc(214)] [17:08:04.542] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 16, 2022 19:11:05.955 NEW SESSION
+3월 16, 2022 19:11:05.955 [1056:10644:0316/191105.954:ERROR:device_event_log_impl.cc(214)] [19:11:05.954] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 16, 2022 19:11:05.956 [1056:10644:0316/191105.954:ERROR:device_event_log_impl.cc(214)] [19:11:05.954] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 16, 2022 19:37:24.791 [10696:6248:0316/193724.791:ERROR:device_event_log_impl.cc(214)] [19:37:24.791] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 16, 2022 19:37:24.792 [10696:6248:0316/193724.792:ERROR:device_event_log_impl.cc(214)] [19:37:24.791] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 16, 2022 21:24:41.942 [10696:6248:0316/212441.941:ERROR:interface_endpoint_client.cc(659)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+3월 17, 2022 18:22:23.902 NEW SESSION
+3월 17, 2022 18:22:23.902 [12232:11148:0317/182223.900:ERROR:device_event_log_impl.cc(214)] [18:22:23.900] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 17, 2022 18:22:23.902 [12232:11148:0317/182223.901:ERROR:device_event_log_impl.cc(214)] [18:22:23.901] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 17, 2022 22:35:27.687 NEW SESSION
+3월 17, 2022 22:35:27.687 [9772:13412:0317/223527.685:ERROR:device_event_log_impl.cc(214)] [22:35:27.685] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 17, 2022 22:35:27.687 [9772:13412:0317/223527.686:ERROR:device_event_log_impl.cc(214)] [22:35:27.685] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 18, 2022 18:55:04.802 NEW SESSION
+3월 18, 2022 18:55:04.802 [6076:6476:0318/185504.797:ERROR:device_event_log_impl.cc(214)] [18:55:04.797] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 18, 2022 18:55:04.803 [6076:6476:0318/185504.798:ERROR:device_event_log_impl.cc(214)] [18:55:04.798] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 27, 2022 19:01:22.877 NEW SESSION
+3월 27, 2022 19:01:22.878 [15184:2080:0327/190122.876:ERROR:device_event_log_impl.cc(214)] [19:01:22.876] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 27, 2022 19:01:22.878 [15184:2080:0327/190122.878:ERROR:device_event_log_impl.cc(214)] [19:01:22.877] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 30, 2022 19:00:11.542 NEW SESSION
+3월 30, 2022 19:00:11.542 [16520:4292:0330/190011.541:ERROR:device_event_log_impl.cc(214)] [19:00:11.541] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 30, 2022 19:00:11.543 [16520:4292:0330/190011.542:ERROR:device_event_log_impl.cc(214)] [19:00:11.543] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 30, 2022 23:55:24.910 [0330/235524.908:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\�뼇�씗誘�\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d3805a5c-0b86-402c-a16b-a5a407221ef7: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 30, 2022 23:55:24.910 [0330/235524.908:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\�뼇�씗誘�\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d3805a5c-0b86-402c-a16b-a5a407221ef7: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 30, 2022 23:55:24.911 [0330/235524.909:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\�뼇�씗誘�\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d3805a5c-0b86-402c-a16b-a5a407221ef7: 지정된 파일을 찾을 수 없습니다. (0x2)
+3월 30, 2022 23:55:24.911 [0330/235524.910:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\�뼇�씗誘�\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d3805a5c-0b86-402c-a16b-a5a407221ef7: 지정된 파일을 찾을 수 없습니다. (0x2)

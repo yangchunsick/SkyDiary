@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<jsp:include page="/WEB-INF/views/layout/header.jsp" flush="true" />
+
+
+	<section>
+		<div class="user_profile_box">
+			<div class="user_profile">
+				<span> 사진 </span>
+				<span> ${loginUser.id} </span>
+			</div>
+		</div>
+		
+		<div class="content_box">
+			<div class="img">
+				<img alt="" src="">
+			</div>
+			<div class="content">
+				<span> 내용 </span>
+			</div>
+		</div>
+		
+		<div class="reply_box">
+			<span> 댓글 </span>
+		</div>
+		
+	</section>
+
+	<h1>여기는 홈이다..!!</h1>
+	<span>${loginUser.mNo}</span>
+	<span>${loginUser.id}</span>
+	<span>${loginUser.pw}</span>
+	<span>${loginUser.name}</span>
+	<span>${loginUser.email}</span>
+</body>
+</html>
